@@ -55,7 +55,7 @@ searchForm.addEventListener('submit',(e) => {
 
     result.textContent = "Loading..."    
 
-    fetch("http://localhost:3000/searchproduct?" + a).then((response) => {
+    fetch("/searchproduct?" + a).then((response) => {
         response.json().then((data) => {
             if(data.error) {
                result.textContent = data.error

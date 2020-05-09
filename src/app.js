@@ -5,6 +5,7 @@ const hbs = require('hbs')
 const getDetails = require('./utils/getDetails')
 
 const app = express()
+const port = process.env.PORT || 3000
 
 const publicDirPath = path.join(__dirname,"../public")
 const viewsPath = path.join(__dirname,"../templates/views")
@@ -52,6 +53,6 @@ app.get('*',(req,res) => {
 
 yargs.parse()
 
-app.listen(3000,() => {
+app.listen(port,() => {
     console.log("server started at port 3000")
 })
