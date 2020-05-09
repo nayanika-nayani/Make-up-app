@@ -52,9 +52,11 @@ p {
 }
 
 #profile-pic {
-    height : 300px;
-    width : 300px;
+    height : 400px;
+    width : 280px;
     position: relative;
+    border: 3px solid #DDDDDD;
+    border-radius: 5px;
 }
 
 .about-content
@@ -63,14 +65,17 @@ p {
     padding : 50px;
     margin: 10px;
     font-size: 1rem;
+    text-align: left;
 }
 
 .about-content-2 {
     padding: 0 30px;
 }
 
-#question-img {
+#index-img {
+    height : 250px;
     width : 400px;
+    margin: 2px;
 }
 
 #abc {
@@ -101,7 +106,7 @@ h4 {
 }
 
 .search-content {
-    text-align: left;
+    text-align: center;
 }
 
 .form_ele {
@@ -133,4 +138,8 @@ input {
     text-align: left;
     padding : 10px;
     line-height: 2rem;
+}
+
+#index-content-1 {
+    text-align: justify;
 }
