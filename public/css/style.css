@@ -1,0 +1,136 @@
+body{
+    padding: 20px;
+    background-color: #faf2f2;
+    color: #888888;
+
+    display : flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 2rem;
+}
+
+.navbar {
+    background-color: #faf2f2;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+#heading {
+    padding : 15px;
+    display: inline;
+    color: #f6acc8;
+    font-size: 5rem;
+    font-family: 'Galada', cursive;
+    font-weight: 200;
+}
+
+.nav-top {
+    float : right;  
+    margin-top: 39px; 
+}
+
+.nav-top a {
+    font-size: 2rem;
+    padding : 5px;
+    margin : 5px;
+    text-decoration: none;
+    color: #f6acc8;
+}
+
+.footer {
+    color: #f6acc8;
+    padding: 15px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+#profile-pic {
+    height : 300px;
+    width : 300px;
+    position: relative;
+}
+
+.about-content
+{
+    line-height: 2rem;
+    padding : 50px;
+    margin: 10px;
+    font-size: 1rem;
+}
+
+.about-content-2 {
+    padding: 0 30px;
+}
+
+#question-img {
+    width : 400px;
+}
+
+#abc {
+    width :100px;
+}
+
+td {
+    text-align: center;
+    padding: 50px;
+}
+
+#error {
+    font-size: 5rem;
+}
+
+.first-set {
+    width : 300px;
+}
+
+.tag {
+    display: inline-block;
+    margin : 0 5px;
+}
+
+h4 {
+    margin : 8px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.search-content {
+    text-align: left;
+}
+
+.form_ele {
+    display: inline-block;
+    padding : 8px;
+}
+
+input {
+    border : solid #DDDDDD;
+}
+
+#search-button {
+    background-color: #f6acc8;
+    padding : 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #888888;
+    font-weight: bold;
+    border: 1.9px solid #DDDDDD;
+    border-radius: 6px;
+}
+
+#res-image {
+    width: 250px;
+    border: 2px solid #DDDDDD;
+    border-radius: 7px;
+}
+
+#result-table-data {
+    text-align: left;
+    padding : 10px;
+    line-height: 2rem;
+}
